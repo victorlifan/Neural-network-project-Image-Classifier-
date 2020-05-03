@@ -20,7 +20,7 @@ In this project, I trained an image classifier to recognize different species of
 * Train the image classifier on your dataset
 * Use the trained classifier to predict image content
 
-> part 2
+> PART 2
 + Train a new network on a data set with `train.py`
 + Predict flower name from an image with `predict.py` along with the probability of that name. That is, you'll pass in a single image `/path/to/image` and return the flower name and class probability.
 
