@@ -55,7 +55,7 @@ The validation and testing sets are used to measure the model's performance on d
       - (7): LogSoftmax())
 
  > Adam (
-  - Parameter Group 0
+  -   Parameter Group 0
   -   amsgrad: False
   -   betas: (0.9, 0.999)
   -   eps: 1e-08
