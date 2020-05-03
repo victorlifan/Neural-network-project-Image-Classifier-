@@ -42,17 +42,18 @@ The validation and testing sets are used to measure the model's performance on d
  * Track the loss and accuracy on the validation set to determine the best hyperparameters
 
  > Network specification
- + After several test, below specifications generate the best results.
 
- > (classifier): Sequential(
-      - (0): Linear(in_features=2208, out_features=1104, bias=True)
-      - (1): ReLU()
-      - (2): Dropout(p=0.3, inplace=False)
-      - (3): Linear(in_features=1104, out_features=552, bias=True)
-      - (4): ReLU()
-      - (5): Dropout(p=0.3, inplace=False)
-      - (6): Linear(in_features=552, out_features=102, bias=True)
-      - (7): LogSoftmax())
+ After several test, below specifications generate the best results.
+
+ >(classifier): Sequential(
+    -  (0): Linear(in_features=2208, out_features=1104, bias=True)
+    -  (1): ReLU()
+    -  (2): Dropout(p=0.3, inplace=False)
+    -  (3): Linear(in_features=1104, out_features=552, bias=True)
+    -  (4): ReLU()
+    -  (5): Dropout(p=0.3, inplace=False)
+    -  (6): Linear(in_features=552, out_features=102, bias=True)
+    -  (7): LogSoftmax())
 
  > Adam (
   -   Parameter Group 0
