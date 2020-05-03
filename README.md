@@ -67,7 +67,7 @@ The validation and testing sets are used to measure the model's performance on d
 
 
  ## About
-+ [`fImage Classifier Project.ipynb`](https://github.com/victorlifan/Neural-network-project-Image-Classifier-/blob/master/Image%20Classifier%20Project.ipynb): This is the main file where I performed my work on the project. Developing an Image Classifier with Deep Learning
++ [`Image Classifier Project.ipynb`](https://github.com/victorlifan/Neural-network-project-Image-Classifier-/blob/master/Image%20Classifier%20Project.ipynb): This is the main file where I performed my work on the project. Developing an Image Classifier with Deep Learning
 + [`train.py`](https://github.com/victorlifan/Neural-network-project-Image-Classifier-/blob/master/train.py): interactive command line py file. It will train a new network on a dataset and save the model as a checkpoint.
 + [`predict.py`](https://github.com/victorlifan/Neural-network-project-Image-Classifier-/blob/master/predict.py): interactive command line py file. It uses a trained network to predict the class for an input image.
 + [`helper.py`](https://github.com/victorlifan/Neural-network-project-Image-Classifier-/blob/master/helper.py) Help to show images in [`fImage Classifier Project.ipynb`](https://github.com/victorlifan/Neural-network-project-Image-Classifier-/blob/master/Image%20Classifier%20Project.ipynb)
