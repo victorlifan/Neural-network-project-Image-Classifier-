@@ -19,7 +19,7 @@ import argparse
 
 # Set up parameters for entry in command line
 parser =argparse.ArgumentParser(description='Image Classifier Neural network training section')
-parser.add_argument('data_dir',type=str,help='Location of directory with data for image classifier to train and test',default="./flowers/",nargs='*')
+parser.add_argument('data_dir',type=str,help='Location of directory with data for image classifier to train and test')
 parser.add_argument('-a','--arch',action='store',type=str, help='Choose among 3 pretrained networks - densenet161, alexnet, and vgg16 (default:densenet161)', default='densenet161')
 parser.add_argument('-H','--hidden_units',action='store',type=int, help='Select number of hidden units for 1st layer',default=1104)
 parser.add_argument('-l','--learning_rate',action='store',type=float, help='Choose a float number as the learning rate for the model (default:0.02, suggestion: 0.01,0.02,0.03)',default= 0.002)
@@ -29,6 +29,8 @@ parser.add_argument('-g','--gpu',action='store_true',help='Use GPU if available'
 
 args = parser.parse_args()
 # Select parameters entered in command line
+if args.data_dir:
+    data_dir = args.data_dir
 if args.arch:
     arch = args.arch
 if args.hidden_units:
@@ -88,7 +90,7 @@ print("="*20+"MODEL IS BUILT"+"="*20)
 ##############################################################
 ##############################################################
 # Directory location of images
-data_dir = args.data_dir
+#data_dir = args.data_dir
 train_dir = data_dir + '/train'
 valid_dir = data_dir + '/valid'
 test_dir = data_dir + '/test'
